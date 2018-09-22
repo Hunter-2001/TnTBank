@@ -1,0 +1,7 @@
+name: TnTBank
+version: 1.0
+main: com.ascendpvp.TnTBank.TnTBankMain
+author: Str8
+
+commands:
+    tntbank:

@@ -1,0 +1,39 @@
+max_radius: '40'
+help:
+- '&7&m----------[&r &b&lTnTBank &r&7&m]----------'
+- '&b/tntbank &fadd [amount/all] &7 - Add TnT from inventory to your TnTBank'
+- '&b/tntbank &fremove [amount] &7 - Remove TnT from TnTBank to your inventory'
+- '&b/tntbank &fchestmode &7 - Toggles chestmode. Click chests to add TnT contents
+  to your TnTBank'
+- '&b/tntbank &fbal (factionname) &7 - Display available TnT in yours/others'' TnTBank'
+- '&b/tntbank tntfill &f[amount] [radius] &7- Fill all dispensers in [radius] with
+  the specified [amount] from your TnTBank.'
+messages:
+  sender_console: Console can't use tntbank silly!
+  added: '&b&lAscendPvP &7> &b#amountAdded# &7added to your TnTBank. Your faction now has &b#totalAmount#&7 TnT!'
+  player_has_no_tntbank: '&b&lAscendPvP &7> &bError! &7You are not in a faction, or have no TnT in your TnTBank.'
+  tnt_bal: '&b&lAscendPvP &7> You have &b#tntAmount# &7TnT in your TnTBank.'
+  otherfac_tnt_count: '&b&lAscendPvP &7> &b#otherFacName#&7''s TnTBank balance is &b#amountOfOtherFac# &7TnT.'
+  fac_no_tntbank: '&b&lAscendPvP &7> Faction does not have a TnTBank.'
+  fac_not_exist: '&b&lAscendPvP &7> Faction does not exist.'
+  not_fac_mod: '&b&lAscendPvP &7> You must be an &bOfficer &7or above to use this command!'
+  not_enough_tnt_in_bank: '&b&lAscendPvP &7> Your faction does not have &b#tntAmount# &7TnT in TnTBank.'
+  not_enough_tnt_in_inv: '&b&lAscendPvP &7> You do not have that much tnt in your inventory!'
+  no_inv_space: '&b&lAscendPvP &7> You do not have enough inventory space for &b#tntAmount# &7TnT. Available space: &b#invSpaceLeft#'
+  tntbank_incorrect_syntax: '&b&lAscendPvP &7> Incorrect Syntax. Try: /tntbank'
+  arg_not_number: '&b&lAscendPvP &7> You must enter a valid amount!'
+  chestmode_exit: '&b&lAscendPvP &7> Chestmode &bDisabled&7!'
+  chestmode_enter: '&b&lAscendPvP &7> Chestmode &bEnabled&7! Hit chests to add TnT to your TnTBank!'
+  faction_wilderness: '&b&lAscendPvP &7> You are in &bWilderness&7.'
+  max_inv_slots: '&b&lAscendPvP &7> You cannot possibly have that much TnT ;)'
+  tnt_chestmode_added: '&b&lAscendPvP &7> &b#amountToAdd# &7TnT added to your TnTBank.'
+  add_tnt_to_inv: '&b&lAscendPvP &7> &b#tntAddedToInv# &7TnT successfully removed from your TnTBank!'
+  tntfill_not_own_territory: '&b&lAscendPvP &7> You must be in your &bown &7faction land to TnTFill!'
+  max_radius: '&b&lAscendPvP &7> You cannot select that big of a radius! Max radius: &b#maxRadius#'
+  no_tnt_to_fill: '&b&lAscendPvP &7> You do not have enough TnT!'
+  tntfill_successful: '&b&lAscendPvP &7> You successfully filled &b#dispenserCount# &7dispensers with &b#tntAmount# &7TnT'
+  radius_not_int: '&b&lAscendPvP &7> You must enter a valid raduis/amount!'
+  all_added: '&b&lAscendPvP &7> &b#amountAdded# &7added to your TnTBank. Your faction now has &b#totalAmount#&7!'
+  add_lessthan_one: "&b&lAscendPvP &7> You must enter an amount greater than 0!"
+  no_permission_tntfill: "&b&lAscendPvP &7> You do not have permission to TnTFill! Purchase @ &bshop.ascendpvp.com"
+  custom_tnt: "&b&lAscendPvP &7> &bError! &7You seem to have some sort of custom TnT in your inventory!"
